@@ -1,0 +1,23 @@
+@import "../abstracts/colors";
+@import "../abstracts/variables";
+
+.product-btn {
+  width: 100%;
+  background: $dark-cyan;
+  color: $white;
+  padding: 14px 28px;
+  border-radius: 10px;
+  border: none;
+  font-size: $font-size-16;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 22px;
+
+  img {
+    margin-inline-end: 10px;
+  }
+
+  &:hover {
+    background: rgba($very-dark-blue, 0.9);
+  }
+}

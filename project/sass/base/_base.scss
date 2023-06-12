@@ -1,0 +1,13 @@
+@import "../abstracts/colors";
+@import "../abstracts/variables";
+
+body {
+    background: $cream;
+    font-size: $font-size-14;
+    margin: $m-0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 16px;
+}

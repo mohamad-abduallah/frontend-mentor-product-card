@@ -1,0 +1,96 @@
+@import "../abstracts/colors";
+@import "../abstracts/variables";
+
+.product-card-main {
+  display: flex;
+  flex-direction: column;
+  background: $white;
+  max-width: 100%;
+  border-radius: 13px;
+  margin-top: $mt-28;
+  margin-bottom:$mb-28;
+
+  .img-mobile img {
+    max-width: $mw-100;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: $mb-28;
+  }
+
+  .img-desktop img {
+    display: none;
+  }
+
+  .main-card {
+    padding-inline: 25px;
+
+    .product-card-title {
+      font-family: 'Montserrat', sans-serif;
+      color: $dark-grayish-blue;
+      letter-spacing: 5px;
+      font-size: $font-size-12;
+      text-transform: uppercase;
+      margin: {
+        top: $mt-unset;
+        bottom: $mb-16;
+      };
+    }
+
+    .product-card-sub-title {
+      font-family: 'Fraunces', serif;
+      text-transform: capitalize;
+      letter-spacing: 2px;
+      font-weight: $font-weight-900;
+      line-height: $line-height-35;
+      font-size: $font-size-30;
+      color: $very-dark-blue;
+      margin: {
+        top: $mt-unset;
+        inline-end: $me-unset;
+        bottom: $mb-28;
+      };
+    }
+
+
+    .product-card-desc {
+      font-family: 'Montserrat', sans-serif;
+      color: $dark-grayish-blue;
+      font-size: $font-size-14;
+      line-height: $line-height-20;
+      font-weight: $font-weight-500;
+      margin: {
+        top: $mt-unset;
+        bottom: $mb-33;
+      };
+    }
+
+    .product-card-price {
+      display: flex;
+      margin-bottom: 22px;
+
+      .new-price {
+        font-family: 'Fraunces', serif;
+        margin-inline-end: $me-22;
+        color: $dark-cyan;
+        font-size: $font-size-35;
+        font-weight: $font-weight-700;
+        margin: {
+          top: $mt-unset;
+          inline-end: $me-22;
+          bottom: $mb-unset;
+        };
+      }
+
+      .old-price {
+        display: flex;
+        align-items: center;
+        color: $dark-grayish-blue;
+        font-weight: $font-weight-900;
+        margin: {
+          top: $mt-unset;
+          bottom: $mb-unset;
+        };
+      }
+    }
+  }
+}
