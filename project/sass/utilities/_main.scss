@@ -10,15 +10,15 @@
   margin-top: $mt-28;
   margin-bottom:$mb-28;
 
-  .img-mobile img {
-    max-width: $mw-100;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-bottom: $mb-28;
-  }
-
-  .img-desktop img {
-    display: none;
+  picture {
+    .product-img {
+      display: flex;
+      max-width: $mw-100;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-bottom: $mb-28;
+      filter: brightness(90%);
+    }
   }
 
   .main-card {

@@ -16,13 +16,11 @@
 </head>
 <body>
   <main class="product-card-main">
-      <div class="img-mobile">
-          <img src="dist/images/image-product-mobile.jpg" alt="Product mobile image">
-      </div>
+      <picture>
+          <source media="(min-width: 768px)" srcset="dist/images/image-product-desktop.jpg" class="img">
 
-      <div class="img-desktop">
-          <img src="dist/images/image-product-desktop.jpg" alt="Product desktop image">
-      </div>
+          <img src="dist/images/image-product-mobile.jpg" alt="Product mobile image" class="product-img">
+      </picture>
 
       <div class="main-card">
           <h1 class="product-card-title">perfume</h1>
