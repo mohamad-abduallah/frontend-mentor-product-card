@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/mohamad-abduallah/frontend-mentor-product-card.git"
   },
   "author": "Mohamad abduallah",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/mohamad-abduallah/frontend-mentor-product-card/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/mohamad-abduallah/frontend-mentor-product-card#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
