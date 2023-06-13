@@ -50,7 +50,7 @@ body {
   margin-top: unset;
   -webkit-margin-end: unset;
   margin-inline-end: unset;
-  margin-bottom: 28px;
+  margin-bottom: 25px;
 }
 .product-card-main .main-card .product-card-desc {
   font-family: "Montserrat", sans-serif;
@@ -59,7 +59,7 @@ body {
   line-height: 20px;
   font-weight: 500;
   margin-top: unset;
-  margin-bottom: 33px;
+  margin-bottom: 30px;
 }
 .product-card-main .main-card .product-card-price {
   display: flex;
@@ -86,7 +86,7 @@ body {
 }
 
 .product-btn {
-  width: 100%;
+  min-width: 100%;
   background: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   padding: 14px 28px;
@@ -106,6 +106,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    padding-inline: unset;
+  }
   .product-card-main {
     display: flex;
     flex-direction: row;
@@ -116,12 +119,16 @@ body {
   .product-card-main .img-mobile img {
     display: none;
   }
+  .product-card-main .img-desktop {
+    display: flex;
+  }
   .product-card-main .img-desktop img {
-    display: block;
+    display: flex;
     max-width: 300px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-bottom: unset;
+    filter: brightness(90%);
   }
   .product-card-main .main-card {
     padding: 30px 30px 0 30px;
@@ -129,7 +136,6 @@ body {
   .product-card-main .main-card .product-card-sub-title {
     max-width: 210px;
     line-height: 35px;
-    margin-top: 26px;
   }
   .product-card-main .main-card .product-card-desc {
     max-width: 225px;

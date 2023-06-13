@@ -2,7 +2,7 @@
 @import "../abstracts/variables";
 
 .product-btn {
-  width: 100%;
+  min-width: 100%;
   background: $dark-cyan;
   color: $white;
   padding: 14px 28px;
